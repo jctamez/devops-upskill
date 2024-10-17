@@ -1,0 +1,927 @@
+{
+    "pipx_spec_version": "0.1",
+    "venvs": {
+        "autopep8": {
+            "metadata": {
+                "injected_packages": {},
+                "main_package": {
+                    "app_paths": [
+                        {
+                            "__Path__": "/usr/local/py-utils/venvs/autopep8/bin/autopep8",
+                            "__type__": "Path"
+                        }
+                    ],
+                    "app_paths_of_dependencies": {
+                        "pycodestyle": [
+                            {
+                                "__Path__": "/usr/local/py-utils/venvs/autopep8/bin/pycodestyle",
+                                "__type__": "Path"
+                            }
+                        ]
+                    },
+                    "apps": [
+                        "autopep8"
+                    ],
+                    "apps_of_dependencies": [
+                        "pycodestyle"
+                    ],
+                    "include_apps": true,
+                    "include_dependencies": false,
+                    "man_pages": [],
+                    "man_pages_of_dependencies": [],
+                    "man_paths": [],
+                    "man_paths_of_dependencies": {},
+                    "package": "autopep8",
+                    "package_or_url": "autopep8",
+                    "package_version": "2.3.1",
+                    "pinned": false,
+                    "pip_args": [
+                        "--no-cache-dir",
+                        "--force-reinstall"
+                    ],
+                    "suffix": ""
+                },
+                "pipx_metadata_version": "0.5",
+                "python_version": "Python 3.12.7",
+                "source_interpreter": {
+                    "__Path__": "/usr/local/bin/python3.12",
+                    "__type__": "Path"
+                },
+                "venv_args": [
+                    "--system-site-packages"
+                ]
+            }
+        },
+        "bandit": {
+            "metadata": {
+                "injected_packages": {},
+                "main_package": {
+                    "app_paths": [
+                        {
+                            "__Path__": "/usr/local/py-utils/venvs/bandit/bin/bandit",
+                            "__type__": "Path"
+                        },
+                        {
+                            "__Path__": "/usr/local/py-utils/venvs/bandit/bin/bandit-baseline",
+                            "__type__": "Path"
+                        },
+                        {
+                            "__Path__": "/usr/local/py-utils/venvs/bandit/bin/bandit-config-generator",
+                            "__type__": "Path"
+                        }
+                    ],
+                    "app_paths_of_dependencies": {
+                        "markdown-it-py": [
+                            {
+                                "__Path__": "/usr/local/py-utils/venvs/bandit/bin/markdown-it",
+                                "__type__": "Path"
+                            }
+                        ],
+                        "pbr": [
+                            {
+                                "__Path__": "/usr/local/py-utils/venvs/bandit/bin/pbr",
+                                "__type__": "Path"
+                            }
+                        ],
+                        "pygments": [
+                            {
+                                "__Path__": "/usr/local/py-utils/venvs/bandit/bin/pygmentize",
+                                "__type__": "Path"
+                            }
+                        ]
+                    },
+                    "apps": [
+                        "bandit",
+                        "bandit-baseline",
+                        "bandit-config-generator"
+                    ],
+                    "apps_of_dependencies": [
+                        "pbr",
+                        "markdown-it",
+                        "pygmentize"
+                    ],
+                    "include_apps": true,
+                    "include_dependencies": false,
+                    "man_pages": [],
+                    "man_pages_of_dependencies": [],
+                    "man_paths": [],
+                    "man_paths_of_dependencies": {},
+                    "package": "bandit",
+                    "package_or_url": "bandit",
+                    "package_version": "1.7.10",
+                    "pinned": false,
+                    "pip_args": [
+                        "--no-cache-dir",
+                        "--force-reinstall"
+                    ],
+                    "suffix": ""
+                },
+                "pipx_metadata_version": "0.5",
+                "python_version": "Python 3.12.7",
+                "source_interpreter": {
+                    "__Path__": "/usr/local/bin/python3.12",
+                    "__type__": "Path"
+                },
+                "venv_args": [
+                    "--system-site-packages"
+                ]
+            }
+        },
+        "black": {
+            "metadata": {
+                "injected_packages": {},
+                "main_package": {
+                    "app_paths": [
+                        {
+                            "__Path__": "/usr/local/py-utils/venvs/black/bin/black",
+                            "__type__": "Path"
+                        },
+                        {
+                            "__Path__": "/usr/local/py-utils/venvs/black/bin/blackd",
+                            "__type__": "Path"
+                        }
+                    ],
+                    "app_paths_of_dependencies": {},
+                    "apps": [
+                        "black",
+                        "blackd"
+                    ],
+                    "apps_of_dependencies": [],
+                    "include_apps": true,
+                    "include_dependencies": false,
+                    "man_pages": [],
+                    "man_pages_of_dependencies": [],
+                    "man_paths": [],
+                    "man_paths_of_dependencies": {},
+                    "package": "black",
+                    "package_or_url": "black",
+                    "package_version": "24.10.0",
+                    "pinned": false,
+                    "pip_args": [
+                        "--no-cache-dir",
+                        "--force-reinstall"
+                    ],
+                    "suffix": ""
+                },
+                "pipx_metadata_version": "0.5",
+                "python_version": "Python 3.12.7",
+                "source_interpreter": {
+                    "__Path__": "/usr/local/bin/python3.12",
+                    "__type__": "Path"
+                },
+                "venv_args": [
+                    "--system-site-packages"
+                ]
+            }
+        },
+        "flake8": {
+            "metadata": {
+                "injected_packages": {},
+                "main_package": {
+                    "app_paths": [
+                        {
+                            "__Path__": "/usr/local/py-utils/venvs/flake8/bin/flake8",
+                            "__type__": "Path"
+                        }
+                    ],
+                    "app_paths_of_dependencies": {
+                        "pycodestyle": [
+                            {
+                                "__Path__": "/usr/local/py-utils/venvs/flake8/bin/pycodestyle",
+                                "__type__": "Path"
+                            }
+                        ],
+                        "pyflakes": [
+                            {
+                                "__Path__": "/usr/local/py-utils/venvs/flake8/bin/pyflakes",
+                                "__type__": "Path"
+                            }
+                        ]
+                    },
+                    "apps": [
+                        "flake8"
+                    ],
+                    "apps_of_dependencies": [
+                        "pycodestyle",
+                        "pyflakes"
+                    ],
+                    "include_apps": true,
+                    "include_dependencies": false,
+                    "man_pages": [],
+                    "man_pages_of_dependencies": [],
+                    "man_paths": [],
+                    "man_paths_of_dependencies": {},
+                    "package": "flake8",
+                    "package_or_url": "flake8",
+                    "package_version": "7.1.1",
+                    "pinned": false,
+                    "pip_args": [
+                        "--no-cache-dir",
+                        "--force-reinstall"
+                    ],
+                    "suffix": ""
+                },
+                "pipx_metadata_version": "0.5",
+                "python_version": "Python 3.12.7",
+                "source_interpreter": {
+                    "__Path__": "/usr/local/bin/python3.12",
+                    "__type__": "Path"
+                },
+                "venv_args": [
+                    "--system-site-packages"
+                ]
+            }
+        },
+        "mypy": {
+            "metadata": {
+                "injected_packages": {},
+                "main_package": {
+                    "app_paths": [
+                        {
+                            "__Path__": "/usr/local/py-utils/venvs/mypy/bin/dmypy",
+                            "__type__": "Path"
+                        },
+                        {
+                            "__Path__": "/usr/local/py-utils/venvs/mypy/bin/mypy",
+                            "__type__": "Path"
+                        },
+                        {
+                            "__Path__": "/usr/local/py-utils/venvs/mypy/bin/mypyc",
+                            "__type__": "Path"
+                        },
+                        {
+                            "__Path__": "/usr/local/py-utils/venvs/mypy/bin/stubgen",
+                            "__type__": "Path"
+                        },
+                        {
+                            "__Path__": "/usr/local/py-utils/venvs/mypy/bin/stubtest",
+                            "__type__": "Path"
+                        }
+                    ],
+                    "app_paths_of_dependencies": {},
+                    "apps": [
+                        "dmypy",
+                        "mypy",
+                        "mypyc",
+                        "stubgen",
+                        "stubtest"
+                    ],
+                    "apps_of_dependencies": [],
+                    "include_apps": true,
+                    "include_dependencies": false,
+                    "man_pages": [],
+                    "man_pages_of_dependencies": [],
+                    "man_paths": [],
+                    "man_paths_of_dependencies": {},
+                    "package": "mypy",
+                    "package_or_url": "mypy",
+                    "package_version": "1.12.0",
+                    "pinned": false,
+                    "pip_args": [
+                        "--no-cache-dir",
+                        "--force-reinstall"
+                    ],
+                    "suffix": ""
+                },
+                "pipx_metadata_version": "0.5",
+                "python_version": "Python 3.12.7",
+                "source_interpreter": {
+                    "__Path__": "/usr/local/bin/python3.12",
+                    "__type__": "Path"
+                },
+                "venv_args": [
+                    "--system-site-packages"
+                ]
+            }
+        },
+        "pipenv": {
+            "metadata": {
+                "injected_packages": {},
+                "main_package": {
+                    "app_paths": [
+                        {
+                            "__Path__": "/usr/local/py-utils/venvs/pipenv/bin/pipenv",
+                            "__type__": "Path"
+                        },
+                        {
+                            "__Path__": "/usr/local/py-utils/venvs/pipenv/bin/pipenv-resolver",
+                            "__type__": "Path"
+                        }
+                    ],
+                    "app_paths_of_dependencies": {
+                        "virtualenv": [
+                            {
+                                "__Path__": "/usr/local/py-utils/venvs/pipenv/bin/virtualenv",
+                                "__type__": "Path"
+                            }
+                        ]
+                    },
+                    "apps": [
+                        "pipenv",
+                        "pipenv-resolver"
+                    ],
+                    "apps_of_dependencies": [
+                        "virtualenv"
+                    ],
+                    "include_apps": true,
+                    "include_dependencies": false,
+                    "man_pages": [],
+                    "man_pages_of_dependencies": [],
+                    "man_paths": [],
+                    "man_paths_of_dependencies": {},
+                    "package": "pipenv",
+                    "package_or_url": "pipenv",
+                    "package_version": "2024.1.0",
+                    "pinned": false,
+                    "pip_args": [
+                        "--no-cache-dir",
+                        "--force-reinstall"
+                    ],
+                    "suffix": ""
+                },
+                "pipx_metadata_version": "0.5",
+                "python_version": "Python 3.12.7",
+                "source_interpreter": {
+                    "__Path__": "/usr/local/bin/python3.12",
+                    "__type__": "Path"
+                },
+                "venv_args": [
+                    "--system-site-packages"
+                ]
+            }
+        },
+        "pipx": {
+            "metadata": {
+                "injected_packages": {},
+                "main_package": {
+                    "app_paths": [
+                        {
+                            "__Path__": "/usr/local/py-utils/venvs/pipx/bin/pipx",
+                            "__type__": "Path"
+                        }
+                    ],
+                    "app_paths_of_dependencies": {
+                        "argcomplete": [
+                            {
+                                "__Path__": "/usr/local/py-utils/venvs/pipx/bin/activate-global-python-argcomplete",
+                                "__type__": "Path"
+                            },
+                            {
+                                "__Path__": "/usr/local/py-utils/venvs/pipx/bin/python-argcomplete-check-easy-install-script",
+                                "__type__": "Path"
+                            },
+                            {
+                                "__Path__": "/usr/local/py-utils/venvs/pipx/bin/register-python-argcomplete",
+                                "__type__": "Path"
+                            }
+                        ],
+                        "userpath": [
+                            {
+                                "__Path__": "/usr/local/py-utils/venvs/pipx/bin/userpath",
+                                "__type__": "Path"
+                            }
+                        ]
+                    },
+                    "apps": [
+                        "pipx"
+                    ],
+                    "apps_of_dependencies": [
+                        "activate-global-python-argcomplete",
+                        "python-argcomplete-check-easy-install-script",
+                        "register-python-argcomplete",
+                        "userpath"
+                    ],
+                    "include_apps": true,
+                    "include_dependencies": false,
+                    "man_pages": [],
+                    "man_pages_of_dependencies": [],
+                    "man_paths": [],
+                    "man_paths_of_dependencies": {},
+                    "package": "pipx",
+                    "package_or_url": "pipx",
+                    "package_version": "1.7.1",
+                    "pinned": false,
+                    "pip_args": [
+                        "--no-cache-dir",
+                        "--force-reinstall"
+                    ],
+                    "suffix": ""
+                },
+                "pipx_metadata_version": "0.5",
+                "python_version": "Python 3.12.7",
+                "source_interpreter": {
+                    "__Path__": "/usr/local/bin/python3.12",
+                    "__type__": "Path"
+                },
+                "venv_args": []
+            }
+        },
+        "pre-commit": {
+            "metadata": {
+                "injected_packages": {},
+                "main_package": {
+                    "app_paths": [
+                        {
+                            "__Path__": "/usr/local/py-utils/venvs/pre-commit/bin/pre-commit",
+                            "__type__": "Path"
+                        }
+                    ],
+                    "app_paths_of_dependencies": {
+                        "identify": [
+                            {
+                                "__Path__": "/usr/local/py-utils/venvs/pre-commit/bin/identify-cli",
+                                "__type__": "Path"
+                            }
+                        ],
+                        "nodeenv": [
+                            {
+                                "__Path__": "/usr/local/py-utils/venvs/pre-commit/bin/nodeenv",
+                                "__type__": "Path"
+                            }
+                        ],
+                        "virtualenv": [
+                            {
+                                "__Path__": "/usr/local/py-utils/venvs/pre-commit/bin/virtualenv",
+                                "__type__": "Path"
+                            }
+                        ]
+                    },
+                    "apps": [
+                        "pre-commit"
+                    ],
+                    "apps_of_dependencies": [
+                        "identify-cli",
+                        "nodeenv",
+                        "virtualenv"
+                    ],
+                    "include_apps": true,
+                    "include_dependencies": false,
+                    "man_pages": [],
+                    "man_pages_of_dependencies": [],
+                    "man_paths": [],
+                    "man_paths_of_dependencies": {},
+                    "package": "pre-commit",
+                    "package_or_url": "pre-commit",
+                    "package_version": "4.0.1",
+                    "pinned": false,
+                    "pip_args": [],
+                    "suffix": ""
+                },
+                "pipx_metadata_version": "0.5",
+                "python_version": "Python 3.12.7",
+                "source_interpreter": {
+                    "__Path__": "/usr/local/bin/python3.12",
+                    "__type__": "Path"
+                },
+                "venv_args": []
+            }
+        },
+        "prospector": {
+            "metadata": {
+                "injected_packages": {},
+                "main_package": {
+                    "app_paths": [
+                        {
+                            "__Path__": "/usr/local/py-utils/venvs/prospector/bin/prospector",
+                            "__type__": "Path"
+                        }
+                    ],
+                    "app_paths_of_dependencies": {
+                        "dill": [
+                            {
+                                "__Path__": "/usr/local/py-utils/venvs/prospector/bin/get_gprof",
+                                "__type__": "Path"
+                            },
+                            {
+                                "__Path__": "/usr/local/py-utils/venvs/prospector/bin/get_objgraph",
+                                "__type__": "Path"
+                            },
+                            {
+                                "__Path__": "/usr/local/py-utils/venvs/prospector/bin/undill",
+                                "__type__": "Path"
+                            }
+                        ],
+                        "dodgy": [
+                            {
+                                "__Path__": "/usr/local/py-utils/venvs/prospector/bin/dodgy",
+                                "__type__": "Path"
+                            }
+                        ],
+                        "flake8": [
+                            {
+                                "__Path__": "/usr/local/py-utils/venvs/prospector/bin/flake8",
+                                "__type__": "Path"
+                            }
+                        ],
+                        "isort": [
+                            {
+                                "__Path__": "/usr/local/py-utils/venvs/prospector/bin/isort",
+                                "__type__": "Path"
+                            },
+                            {
+                                "__Path__": "/usr/local/py-utils/venvs/prospector/bin/isort-identify-imports",
+                                "__type__": "Path"
+                            }
+                        ],
+                        "pycodestyle": [
+                            {
+                                "__Path__": "/usr/local/py-utils/venvs/prospector/bin/pycodestyle",
+                                "__type__": "Path"
+                            }
+                        ],
+                        "pydocstyle": [
+                            {
+                                "__Path__": "/usr/local/py-utils/venvs/prospector/bin/pydocstyle",
+                                "__type__": "Path"
+                            }
+                        ],
+                        "pyflakes": [
+                            {
+                                "__Path__": "/usr/local/py-utils/venvs/prospector/bin/pyflakes",
+                                "__type__": "Path"
+                            }
+                        ],
+                        "pylint": [
+                            {
+                                "__Path__": "/usr/local/py-utils/venvs/prospector/bin/pylint",
+                                "__type__": "Path"
+                            },
+                            {
+                                "__Path__": "/usr/local/py-utils/venvs/prospector/bin/pylint-config",
+                                "__type__": "Path"
+                            },
+                            {
+                                "__Path__": "/usr/local/py-utils/venvs/prospector/bin/pyreverse",
+                                "__type__": "Path"
+                            },
+                            {
+                                "__Path__": "/usr/local/py-utils/venvs/prospector/bin/symilar",
+                                "__type__": "Path"
+                            }
+                        ],
+                        "requirements-detector": [
+                            {
+                                "__Path__": "/usr/local/py-utils/venvs/prospector/bin/detect-requirements",
+                                "__type__": "Path"
+                            }
+                        ],
+                        "semver": [
+                            {
+                                "__Path__": "/usr/local/py-utils/venvs/prospector/bin/pysemver",
+                                "__type__": "Path"
+                            }
+                        ]
+                    },
+                    "apps": [
+                        "prospector"
+                    ],
+                    "apps_of_dependencies": [
+                        "dodgy",
+                        "flake8",
+                        "pycodestyle",
+                        "pyflakes",
+                        "pydocstyle",
+                        "pylint",
+                        "pylint-config",
+                        "pyreverse",
+                        "symilar",
+                        "isort",
+                        "isort-identify-imports",
+                        "get_gprof",
+                        "get_objgraph",
+                        "undill",
+                        "detect-requirements",
+                        "pysemver"
+                    ],
+                    "include_apps": true,
+                    "include_dependencies": false,
+                    "man_pages": [],
+                    "man_pages_of_dependencies": [],
+                    "man_paths": [],
+                    "man_paths_of_dependencies": {},
+                    "package": "prospector",
+                    "package_or_url": "prospector",
+                    "package_version": "1.12.1",
+                    "pinned": false,
+                    "pip_args": [],
+                    "suffix": ""
+                },
+                "pipx_metadata_version": "0.5",
+                "python_version": "Python 3.12.7",
+                "source_interpreter": {
+                    "__Path__": "/usr/local/bin/python3.12",
+                    "__type__": "Path"
+                },
+                "venv_args": []
+            }
+        },
+        "pycodestyle": {
+            "metadata": {
+                "injected_packages": {},
+                "main_package": {
+                    "app_paths": [
+                        {
+                            "__Path__": "/usr/local/py-utils/venvs/pycodestyle/bin/pycodestyle",
+                            "__type__": "Path"
+                        }
+                    ],
+                    "app_paths_of_dependencies": {},
+                    "apps": [
+                        "pycodestyle"
+                    ],
+                    "apps_of_dependencies": [],
+                    "include_apps": true,
+                    "include_dependencies": false,
+                    "man_pages": [],
+                    "man_pages_of_dependencies": [],
+                    "man_paths": [],
+                    "man_paths_of_dependencies": {},
+                    "package": "pycodestyle",
+                    "package_or_url": "pycodestyle",
+                    "package_version": "2.12.1",
+                    "pinned": false,
+                    "pip_args": [
+                        "--no-cache-dir",
+                        "--force-reinstall"
+                    ],
+                    "suffix": ""
+                },
+                "pipx_metadata_version": "0.5",
+                "python_version": "Python 3.12.7",
+                "source_interpreter": {
+                    "__Path__": "/usr/local/bin/python3.12",
+                    "__type__": "Path"
+                },
+                "venv_args": [
+                    "--system-site-packages"
+                ]
+            }
+        },
+        "pydocstyle": {
+            "metadata": {
+                "injected_packages": {},
+                "main_package": {
+                    "app_paths": [
+                        {
+                            "__Path__": "/usr/local/py-utils/venvs/pydocstyle/bin/pydocstyle",
+                            "__type__": "Path"
+                        }
+                    ],
+                    "app_paths_of_dependencies": {},
+                    "apps": [
+                        "pydocstyle"
+                    ],
+                    "apps_of_dependencies": [],
+                    "include_apps": true,
+                    "include_dependencies": false,
+                    "man_pages": [],
+                    "man_pages_of_dependencies": [],
+                    "man_paths": [],
+                    "man_paths_of_dependencies": {},
+                    "package": "pydocstyle",
+                    "package_or_url": "pydocstyle",
+                    "package_version": "6.3.0",
+                    "pinned": false,
+                    "pip_args": [
+                        "--no-cache-dir",
+                        "--force-reinstall"
+                    ],
+                    "suffix": ""
+                },
+                "pipx_metadata_version": "0.5",
+                "python_version": "Python 3.12.7",
+                "source_interpreter": {
+                    "__Path__": "/usr/local/bin/python3.12",
+                    "__type__": "Path"
+                },
+                "venv_args": [
+                    "--system-site-packages"
+                ]
+            }
+        },
+        "pylint": {
+            "metadata": {
+                "injected_packages": {},
+                "main_package": {
+                    "app_paths": [
+                        {
+                            "__Path__": "/usr/local/py-utils/venvs/pylint/bin/pylint",
+                            "__type__": "Path"
+                        },
+                        {
+                            "__Path__": "/usr/local/py-utils/venvs/pylint/bin/pylint-config",
+                            "__type__": "Path"
+                        },
+                        {
+                            "__Path__": "/usr/local/py-utils/venvs/pylint/bin/pyreverse",
+                            "__type__": "Path"
+                        },
+                        {
+                            "__Path__": "/usr/local/py-utils/venvs/pylint/bin/symilar",
+                            "__type__": "Path"
+                        }
+                    ],
+                    "app_paths_of_dependencies": {
+                        "dill": [
+                            {
+                                "__Path__": "/usr/local/py-utils/venvs/pylint/bin/get_gprof",
+                                "__type__": "Path"
+                            },
+                            {
+                                "__Path__": "/usr/local/py-utils/venvs/pylint/bin/get_objgraph",
+                                "__type__": "Path"
+                            },
+                            {
+                                "__Path__": "/usr/local/py-utils/venvs/pylint/bin/undill",
+                                "__type__": "Path"
+                            }
+                        ],
+                        "isort": [
+                            {
+                                "__Path__": "/usr/local/py-utils/venvs/pylint/bin/isort",
+                                "__type__": "Path"
+                            },
+                            {
+                                "__Path__": "/usr/local/py-utils/venvs/pylint/bin/isort-identify-imports",
+                                "__type__": "Path"
+                            }
+                        ]
+                    },
+                    "apps": [
+                        "pylint",
+                        "pylint-config",
+                        "pyreverse",
+                        "symilar"
+                    ],
+                    "apps_of_dependencies": [
+                        "isort",
+                        "isort-identify-imports",
+                        "get_gprof",
+                        "get_objgraph",
+                        "undill"
+                    ],
+                    "include_apps": true,
+                    "include_dependencies": false,
+                    "man_pages": [],
+                    "man_pages_of_dependencies": [],
+                    "man_paths": [],
+                    "man_paths_of_dependencies": {},
+                    "package": "pylint",
+                    "package_or_url": "pylint",
+                    "package_version": "3.3.1",
+                    "pinned": false,
+                    "pip_args": [
+                        "--no-cache-dir",
+                        "--force-reinstall"
+                    ],
+                    "suffix": ""
+                },
+                "pipx_metadata_version": "0.5",
+                "python_version": "Python 3.12.7",
+                "source_interpreter": {
+                    "__Path__": "/usr/local/bin/python3.12",
+                    "__type__": "Path"
+                },
+                "venv_args": [
+                    "--system-site-packages"
+                ]
+            }
+        },
+        "pytest": {
+            "metadata": {
+                "injected_packages": {},
+                "main_package": {
+                    "app_paths": [
+                        {
+                            "__Path__": "/usr/local/py-utils/venvs/pytest/bin/py.test",
+                            "__type__": "Path"
+                        },
+                        {
+                            "__Path__": "/usr/local/py-utils/venvs/pytest/bin/pytest",
+                            "__type__": "Path"
+                        }
+                    ],
+                    "app_paths_of_dependencies": {},
+                    "apps": [
+                        "py.test",
+                        "pytest"
+                    ],
+                    "apps_of_dependencies": [],
+                    "include_apps": true,
+                    "include_dependencies": false,
+                    "man_pages": [],
+                    "man_pages_of_dependencies": [],
+                    "man_paths": [],
+                    "man_paths_of_dependencies": {},
+                    "package": "pytest",
+                    "package_or_url": "pytest",
+                    "package_version": "8.3.3",
+                    "pinned": false,
+                    "pip_args": [
+                        "--no-cache-dir",
+                        "--force-reinstall"
+                    ],
+                    "suffix": ""
+                },
+                "pipx_metadata_version": "0.5",
+                "python_version": "Python 3.12.7",
+                "source_interpreter": {
+                    "__Path__": "/usr/local/bin/python3.12",
+                    "__type__": "Path"
+                },
+                "venv_args": [
+                    "--system-site-packages"
+                ]
+            }
+        },
+        "virtualenv": {
+            "metadata": {
+                "injected_packages": {},
+                "main_package": {
+                    "app_paths": [
+                        {
+                            "__Path__": "/usr/local/py-utils/venvs/virtualenv/bin/virtualenv",
+                            "__type__": "Path"
+                        }
+                    ],
+                    "app_paths_of_dependencies": {},
+                    "apps": [
+                        "virtualenv"
+                    ],
+                    "apps_of_dependencies": [],
+                    "include_apps": true,
+                    "include_dependencies": false,
+                    "man_pages": [],
+                    "man_pages_of_dependencies": [],
+                    "man_paths": [],
+                    "man_paths_of_dependencies": {},
+                    "package": "virtualenv",
+                    "package_or_url": "virtualenv",
+                    "package_version": "20.26.6",
+                    "pinned": false,
+                    "pip_args": [
+                        "--no-cache-dir",
+                        "--force-reinstall"
+                    ],
+                    "suffix": ""
+                },
+                "pipx_metadata_version": "0.5",
+                "python_version": "Python 3.12.7",
+                "source_interpreter": {
+                    "__Path__": "/usr/local/bin/python3.12",
+                    "__type__": "Path"
+                },
+                "venv_args": [
+                    "--system-site-packages"
+                ]
+            }
+        },
+        "yapf": {
+            "metadata": {
+                "injected_packages": {},
+                "main_package": {
+                    "app_paths": [
+                        {
+                            "__Path__": "/usr/local/py-utils/venvs/yapf/bin/yapf",
+                            "__type__": "Path"
+                        },
+                        {
+                            "__Path__": "/usr/local/py-utils/venvs/yapf/bin/yapf-diff",
+                            "__type__": "Path"
+                        }
+                    ],
+                    "app_paths_of_dependencies": {},
+                    "apps": [
+                        "yapf",
+                        "yapf-diff"
+                    ],
+                    "apps_of_dependencies": [],
+                    "include_apps": true,
+                    "include_dependencies": false,
+                    "man_pages": [],
+                    "man_pages_of_dependencies": [],
+                    "man_paths": [],
+                    "man_paths_of_dependencies": {},
+                    "package": "yapf",
+                    "package_or_url": "yapf",
+                    "package_version": "0.40.2",
+                    "pinned": false,
+                    "pip_args": [
+                        "--no-cache-dir",
+                        "--force-reinstall"
+                    ],
+                    "suffix": ""
+                },
+                "pipx_metadata_version": "0.5",
+                "python_version": "Python 3.12.7",
+                "source_interpreter": {
+                    "__Path__": "/usr/local/bin/python3.12",
+                    "__type__": "Path"
+                },
+                "venv_args": [
+                    "--system-site-packages"
+                ]
+            }
+        }
+    }
+}

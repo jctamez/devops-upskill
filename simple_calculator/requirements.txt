@@ -1,0 +1,5 @@
+# requirements.txt
+
+# Specify the Python version (optional but recommended)
+# This ensures compatibility with the Python version you are using.
+python_version >= 3.6
